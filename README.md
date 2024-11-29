@@ -22,28 +22,28 @@ Só tem um jeito de aprender a programar: **PROGRAMANDO** 👨‍💻
 
 Faça o clone do projeto para sua máquina:
 ```
-$ git clone https://github.com/dercilima/agenda-devfest-app
+git clone https://github.com/dercilima/agenda-devfest-app
 ```
 
 ### Instale as dependências
 
 Instale as dependências do projeto:
 ```
-$ npm i
+npm i
 ```
 
 ### Firebase CLI
 
 Nesse passo, iremos instalar o Firebase CLI com o seguinte comando:
 ```
-$ npm i -g firebase-tools
+npm i -g firebase-tools
 ```
 
 ### AngularFire
 
 Adicione o AngularFire ao projeto:
 ```
-$ ng add @angular/fire
+ng add @angular/fire
 ```
 
 Algumas perguntas serão feitas e você deve responder:
@@ -75,7 +75,7 @@ Acesse o [Console do Firebase](https://console.firebase.google.com) e siga os se
 
 Execute o projeto localmente:
 ```
-$ npm start
+npm start
 ```
 
 **PRONTO! Agora você já pode testar nosso CRUD.**
@@ -84,7 +84,7 @@ $ npm start
 
 Execute o comando abaixo para construir o projeto:
 ```
-$ ng build
+ng build
 ```
 
 Os artefatos serão armazenados no diretório `dist/{nome-do-seu-projeto}`.
@@ -94,7 +94,7 @@ Os artefatos serão armazenados no diretório `dist/{nome-do-seu-projeto}`.
 Antes de fazer o deploy, precisamos configurar nosso projeto com o Firebase Hosting. Para isso, execute o seguinte comando no terminal:
 
 ```
-$ firebase init
+firebase init
 ```
 
 Reponda as perguntas:
@@ -111,12 +111,12 @@ Pronto! Projeto configurado. Repare que alguns arquivos foram criados no seu pro
 Agora sim, execute o comando abaixo no seu terminal e veja a magia acontecer:
 
 ```
-$ firebase deploy --only hosting
+firebase deploy --only hosting
 ```
 
 Após finalizado o deploy, no final do console irá aparecer algo assim:
 
-`Hosting URL: https://teste-oficina-join.web.app`
+`Hosting URL: https://devfest-xpto.web.app`
 
 Pronto! Agora sua aplicação está online para o mundo 🌏
 
