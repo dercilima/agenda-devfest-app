@@ -1,0 +1,15 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-mdc-dialog-actions {
+  justify-content: space-between;
+  padding: 0 16px 16px 16px;
+}
+
+.buttons {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,23 @@
+<div class="full">
+  <mat-toolbar color="primary">
+    <mat-icon>local_fire_department</mat-icon>
+    <div class="toolbar-content">
+      <span class="title">DevFest</span>
+      <span class="hidden"> • </span>
+      <span class="subtitle">Agenda de Palestras</span>
+    </div>
+  </mat-toolbar>
+
+  <div class="content">
+    <h1 color="primary">Agenda da Conferência 2024</h1>
+    <app-talk
+      *ngFor="let talk of talks"
+      [talk]="talk"
+      (onClick)="editTalk(talk)"
+    ></app-talk>
+  </div>
+</div>
+
+<button mat-fab (click)="addNewTalk()">
+  <mat-icon>add</mat-icon>
+</button>
